@@ -9,3 +9,5 @@ export const REDIRECT = {
   name: 'redirect',
   component: () => import('@/views/redirect/index.vue')
 }
+
+export const DEFAULT_LAYOUT = () => import('@/layout/default.vue')
